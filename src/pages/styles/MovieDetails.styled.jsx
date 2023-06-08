@@ -6,6 +6,7 @@ export const Card = styled.div`
   align-items: center;
   gap: 20px;
   margin-top: 16px;
+  
 `;
 
 export const Back = styled(Link)`

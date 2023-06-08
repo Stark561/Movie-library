@@ -8,7 +8,7 @@ function Cast() {
   const [cast, setCast] = useState([]);
   const [notFound, setNotFound] = useState(false);
   const standartImage =
-    'https://kartinki.pibig.info/uploads/posts/2023-04/1681549765_kartinki-pibig-info-p-zaglushka-kartinka-arti-krasivo-1.jpg';
+    'http://dummyimage.com/150x60/99cccc.gif&text=The+image!';
 
   useEffect(() => {
     getMovieCredits(movieId)
@@ -34,7 +34,7 @@ function Cast() {
                   src={
                     elem.profile_path
                       ? `https://image.tmdb.org/t/p/w200${elem.profile_path}`
-                      : standartImage `http://dummyimage.com/150x60/99cccc.gif&text=The+image!`
+                      : standartImage
                   }
                   alt={elem.name}
                 />

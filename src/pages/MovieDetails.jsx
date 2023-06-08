@@ -14,7 +14,7 @@ function MovieDetails() {
   const location = useLocation();
   const backLocation = useRef(location.state?.from || '/');
   const standartImage =
-    'https://kartinki.pibig.info/uploads/posts/2023-04/1681549765_kartinki-pibig-info-p-zaglushka-kartinka-arti-krasivo-1.jpg';
+    'http://dummyimage.com/150x60/99cccc.gif&text=The+image!';
 
   useEffect(() => {
     getMovieDetails(movieId)
