@@ -34,7 +34,7 @@ function Cast() {
                   src={
                     elem.profile_path
                       ? `https://image.tmdb.org/t/p/w200${elem.profile_path}`
-                      : standartImage
+                      : `http://dummyimage.com/150x60/99cccc.gif&text=The+image!`
                   }
                   alt={elem.name}
                 />
